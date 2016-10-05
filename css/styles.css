@@ -1,0 +1,83 @@
+#menuitem
+{
+	height:1000px;
+	background-color: gray;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.container{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#menuchoice
+{
+	border:1px;
+	border-color: black;
+	padding: 0;
+}
+
+#header-nav.navbar.navbar-default{
+	background-color: gray;
+}
+.navbar-default .navbar-brand {
+  padding-top: 10px;
+  background-color: gray;
+  color:black;
+}
+
+h1.navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 0;
+  line-height: .75;
+  color: black;
+}
+
+li{
+	color:gray;
+}
+
+@media (max-width: 767px) {
+ /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+  }
+
+  .icon-bar span {
+    color:black;
+  }
+
+  div #collapsable-nav.navbar-collapse.collapse
+  {
+  	margin:0px;
+  	padding-left: 0px;
+  	padding-right: 0px;
+  }
+
+ div#collapsable-nav.navbar-collapse.collapse.in li
+  {
+    border:1px;
+    border-color: black;
+  }
+
+ li {
+    font-size: 1em;
+    text-align: center;
+    color: black;
+    background-color: white;
+  }
+}
